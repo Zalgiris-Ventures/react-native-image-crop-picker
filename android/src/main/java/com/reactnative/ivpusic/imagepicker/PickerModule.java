@@ -752,7 +752,7 @@ class PickerModule extends ReactContextBaseJavaModule implements ActivityEventLi
         else {
             options.setAllowedGestures(
                     UCropActivity.SCALE, // When 'scale'-tab active
-                    UCropActivity.RATIO, // When 'rotate'-tab active
+                    UCropActivity.NONE, // When 'rotate'-tab active
                     UCropActivity.SCALE  // When 'aspect ratio'-tab active
             );
         }
